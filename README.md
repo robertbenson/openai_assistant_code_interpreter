@@ -62,9 +62,9 @@ The python generated answer and the assistant generated answer are the same.
 
 Sum to calculate is: `3.141593 * 7,899,324`
 
-| Origin                           | Result        | Customisation                                                                                                                          |
-|----------------------------------|---------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| ChatGpt   <br/>(Asking directly) | 24,733,643.87<br/>24,797,744.10<br/>24,743,699.36<br/>24,775,139.39 | LLM's are prone to hallucination.   <br/>This answer may vary with reruns.                                                             |
-| assistant                        | 24,816,460.98 | Requested a cusom output:<br/>show 6 decimal places of pi in numbers in answer. format answer with commas and 2 dp. Remove back slashs |
-| python generated answer          | 24,816,460.98 |                                                                                                                                        |
+| Origin                           | Result        | Customisation                                                                                                                                     |
+|----------------------------------|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| ChatGpt   <br/>(Asking directly) | 24,733,643.87<br/>24,797,744.10<br/>24,743,699.36<br/>24,775,139.39 | LLM's are prone to hallucination.   <br/>This answer may vary with reruns.                                                                        |
+| assistant                        | 24,816,460.98 | Requested a custom formatted output:<br/>show 6 decimal places of pi in numbers in answer. format answer with commas and 2 dp. Remove back slashs |
+| python generated answer          | 24,816,460.98 | Formatted:      f"{number:,.2f}"                                                                                                                  |
 
